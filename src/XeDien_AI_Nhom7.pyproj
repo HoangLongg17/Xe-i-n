@@ -22,8 +22,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="data_load.py" />
+    <Compile Include="energy_model.py" />
     <Compile Include="graph.py" />
+    <Compile Include="routing_search.py" />
+    <Compile Include="visualization.py" />
     <Compile Include="XeDien_AI_Nhom7.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
