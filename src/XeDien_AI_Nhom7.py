@@ -349,34 +349,29 @@ def plan_route(
     # start
     start_coord = None
     end_coord = None
+    # START node
     if isinstance(start_sel, tuple):
         lat, lon = start_sel
-        start_coord = (lat, lon)
         start_node = _unique_id("START")
-        add_virtual_node(G, start_node, lat, lon, k_neighbors=8, max_dist_km=cfg["max_search_dist"])
+        add_virtual_node(G_filtered, start_node, lat, lon,
+                         k_neighbors=8, max_dist_km=cfg["max_search_dist"])
         stations_mod = _append_virtual_station_row(stations_mod, start_node, "Start (user)", lat, lon)
     else:
         start_node = start_sel
-        try:
-            r = stations_mod.loc[stations_mod["id"] == start_node].iloc[0]
-            start_coord = (float(r["lat"]), float(r["lon"]))
-        except Exception:
-            start_coord = None
+
 
     # end
     if isinstance(end_sel, tuple):
         lat, lon = end_sel
-        end_coord = (lat, lon)
         end_node = _unique_id("END")
-        add_virtual_node(G, end_node, lat, lon, k_neighbors=8, max_dist_km=cfg["max_search_dist"])
+        add_virtual_node(G_filtered, end_node, lat, lon,
+                         k_neighbors=8, max_dist_km=cfg["max_search_dist"])
         stations_mod = _append_virtual_station_row(stations_mod, end_node, "End (user)", lat, lon)
     else:
         end_node = end_sel
-        try:
-            r = stations_mod.loc[stations_mod["id"] == end_node].iloc[0]
-            end_coord = (float(r["lat"]), float(r["lon"]))
-        except Exception:
-            end_coord = None
+
+    print("Neighbors of START:", list(G_filtered.neighbors(start_node)))
+    print("Neighbors of END:", list(G_filtered.neighbors(end_node)))
 
     # Search / simulate
     candidate_sim_results: List[Dict] = []
@@ -630,7 +625,7 @@ def main():
             print("Start/end required (no interactive terminal).")
             return
 
-    res = plan_route(start_input, end_input, cfg)
+    res = plan_route(start_input, end_input, {"use_astar": True})
     print(res["output"])
     # save map to file for CLI usage
     if res.get("map_html"):
