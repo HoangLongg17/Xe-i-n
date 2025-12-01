@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\graph.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:graph.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -15,16 +11,36 @@
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:XeDien_AI_Nhom7.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_server.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:coord_server.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\simulator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:simulator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:coord_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\visualization.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:visualization.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\osrm_client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:osrm_client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\energy_model.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,43 +63,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "coord_server.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_server.py",
+              "RelativeDocumentMoniker": "coord_server.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_server.py",
+              "RelativeToolTip": "coord_server.py",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAkwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-01T09:25:06.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "simulator.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\simulator.py",
+              "RelativeDocumentMoniker": "simulator.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\simulator.py",
+              "RelativeToolTip": "simulator.py",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-01T05:46:37.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "XeDien_AI_Nhom7.py",
               "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\XeDien_AI_Nhom7.py",
               "RelativeDocumentMoniker": "XeDien_AI_Nhom7.py",
               "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\XeDien_AI_Nhom7.py",
               "RelativeToolTip": "XeDien_AI_Nhom7.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYCAAAAAAAAAAAkwIICAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-11-30T08:18:59.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "visualization.py",
               "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\visualization.py",
               "RelativeDocumentMoniker": "visualization.py",
               "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\visualization.py",
               "RelativeToolTip": "visualization.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANMAAAAAAAAAAAAawJwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-30T08:18:46.185Z"
+              "WhenOpened": "2025-11-30T08:18:46.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "routing_search.py",
               "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\routing_search.py",
               "RelativeDocumentMoniker": "routing_search.py",
               "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\routing_search.py",
               "RelativeToolTip": "routing_search.py",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAawM0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-30T08:18:22.592Z"
+              "WhenOpened": "2025-11-30T08:18:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data_load.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py",
+              "RelativeDocumentMoniker": "data_load.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py",
+              "RelativeToolTip": "data_load.py",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAkwKIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-30T08:16:27.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Requirements.txt",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\Requirements.txt",
+              "RelativeDocumentMoniker": "Requirements.txt",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\Requirements.txt",
+              "RelativeToolTip": "Requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-30T08:14:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "graph.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\graph.py",
+              "RelativeDocumentMoniker": "graph.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\graph.py",
+              "RelativeToolTip": "graph.py",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAkwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-30T08:16:45.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "osrm_client.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\osrm_client.py",
+              "RelativeDocumentMoniker": "osrm_client.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\osrm_client.py",
+              "RelativeToolTip": "osrm_client.py",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwF4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-01T05:51:30.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "coord_selector.py",
+              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_selector.py",
+              "RelativeDocumentMoniker": "coord_selector.py",
+              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\coord_selector.py",
+              "RelativeToolTip": "coord_selector.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-01T06:57:47.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "energy_model.py",
               "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\energy_model.py",
               "RelativeDocumentMoniker": "energy_model.py",
@@ -92,44 +201,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-11-30T08:17:38.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "graph.py",
-              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\graph.py",
-              "RelativeDocumentMoniker": "graph.py",
-              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\graph.py",
-              "RelativeToolTip": "graph.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-30T08:16:45.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "data_load.py",
-              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py",
-              "RelativeDocumentMoniker": "data_load.py",
-              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\data_load.py",
-              "RelativeToolTip": "data_load.py",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-30T08:16:27.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Requirements.txt",
-              "DocumentMoniker": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\Requirements.txt",
-              "RelativeDocumentMoniker": "Requirements.txt",
-              "ToolTip": "D:\\classcpp\\Xe \u0111i\u1EC7n\\XeDien_AI_Nhom7\\src\\Requirements.txt",
-              "RelativeToolTip": "Requirements.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-30T08:14:31.536Z"
             }
           ]
         }

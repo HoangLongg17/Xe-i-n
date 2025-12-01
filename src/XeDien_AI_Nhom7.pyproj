@@ -21,10 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="coord_selector.py" />
+    <Compile Include="coord_server.py" />
     <Compile Include="data_load.py" />
     <Compile Include="energy_model.py" />
     <Compile Include="graph.py" />
+    <Compile Include="osrm_client.py" />
     <Compile Include="routing_search.py" />
+    <Compile Include="simulator.py" />
     <Compile Include="visualization.py" />
     <Compile Include="XeDien_AI_Nhom7.py" />
   </ItemGroup>
