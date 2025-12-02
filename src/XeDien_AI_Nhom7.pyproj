@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>XeDien_AI_Nhom7</Name>
     <RootNamespace>XeDien_AI_Nhom7</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
