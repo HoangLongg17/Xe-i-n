@@ -7,3 +7,4 @@ fastkml
 lxml
 flask
 requests
+tkintermapview

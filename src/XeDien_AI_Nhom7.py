@@ -595,6 +595,7 @@ def main():
     parser.add_argument("--snap-radius-km", type=float, default=5.0, help="Radius to snap polyline points to stations (km)")
     parser.add_argument("--max-expansions", type=int, default=50000, help="Max search node expansions to avoid long runs")
     parser.add_argument("--extra-kml", nargs="+", help="Additional KML file(s) (e.g. Google My Maps export) to merge into station list")
+    parser.add_argument("--ui", action="store_true", help="Launch native GUI (coord_ui.py)")
     args = parser.parse_args()
 
     cfg = {
@@ -617,10 +618,21 @@ def main():
         "use_geocode": args.use_geocode,
     }
 
+    # If requested, launch native UI. Import inside function to avoid circular import at module load.
+    if args.ui:
+        try:
+            from coord_ui import CoordPlannerUI
+        except Exception as ex:
+            print("Cannot launch GUI (coord_ui). Error:", ex)
+            return
+        ui = CoordPlannerUI()
+        ui.run()
+        return
+ 
     # Resolve start/end: use CLI if provided, otherwise interactive if terminal attached
     if args.start and args.end:
-        start_input = args.start
-        end_input = args.end
+         start_input = args.start
+         end_input = args.end
     else:
         # if running interactively, prompt user
         if sys.stdin.isatty():
