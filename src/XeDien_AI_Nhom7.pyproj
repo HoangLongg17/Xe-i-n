@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7694396c-2084-4df2-97d5-076c7d0f1b46</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>XeDien_AI_Nhom7.py</StartupFile>
+    <StartupFile>coord_ui.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>XeDien_AI_Nhom7</Name>
     <RootNamespace>XeDien_AI_Nhom7</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +24,7 @@
   <ItemGroup>
     <Compile Include="coord_selector.py" />
     <Compile Include="coord_server.py" />
+    <Compile Include="coord_ui.py" />
     <Compile Include="data_load.py" />
     <Compile Include="energy_model.py" />
     <Compile Include="graph.py" />

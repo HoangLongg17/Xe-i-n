@@ -9,6 +9,7 @@ def plot_path(
     path_ids: typing.List[str],
     charging_stops: typing.Optional[typing.List[typing.Dict]] = None,
     detour_polylines: Optional[List[List[Tuple[float, float]]]] = None,
+    base_polyline: Optional[List[Tuple[float, float]]] = None,
     zoom_start: int = 6,
     tiles: str = "OpenStreetMap",
     output_file: typing.Optional[str] = None,
@@ -16,7 +17,7 @@ def plot_path(
     """
     Vẽ lộ trình trên bản đồ cùng các trạm sạc (nếu có).
 
-    Added:
+    - base_polyline: optional road-aligned polyline (list of (lat,lon)) to draw as primary route.
     - detour_polylines: optional list of polylines (each a list of (lat,lon)) to draw detours.
     """
     if not path_ids:
@@ -25,9 +26,13 @@ def plot_path(
     # Build quick index for lookups
     stations_index = stations_df.set_index("id")
 
-    # Determine map center from first node in path
+    # Determine map center
     try:
-        start_row = stations_index.loc[path_ids[0]]
+        if base_polyline and len(base_polyline) > 0:
+            start_row_coords = base_polyline[0]
+            start_row = {"lat": start_row_coords[0], "lon": start_row_coords[1]}
+        else:
+            start_row = stations_index.loc[path_ids[0]]
     except Exception:
         # fallback to first row of dataframe
         start_row = stations_df.iloc[0]
@@ -56,7 +61,7 @@ def plot_path(
             popup=popup,
         ).add_to(fg_all)
 
-    # Build list of coordinates for polyline (skip missing ids gracefully)
+    # Build list of coordinates for node-based polyline (skip missing ids gracefully)
     coords = []
     for pid in path_ids:
         try:
@@ -66,20 +71,38 @@ def plot_path(
             # ignore missing node ids
             continue
 
-    # Draw route polyline
-    if coords:
-        folium.PolyLine(coords, color="red", weight=4, opacity=0.9).add_to(fg_path)
-        # mark start and end
+    # Draw primary route: prefer base_polyline (road geometry) when available
+    if base_polyline:
+        # base_polyline is list of (lat, lon)
+        folium.PolyLine(base_polyline, color="red", weight=5, opacity=0.9).add_to(fg_path)
+        # mark start and end using base_polyline endpoints
         folium.Marker(
-            location=coords[0],
+            location=[base_polyline[0][0], base_polyline[0][1]],
             popup="Start",
             icon=folium.Icon(color="green", icon="play", prefix="fa"),
         ).add_to(fg_path)
         folium.Marker(
-            location=coords[-1],
+            location=[base_polyline[-1][0], base_polyline[-1][1]],
             popup="Destination",
             icon=folium.Icon(color="darkred", icon="flag", prefix="fa"),
         ).add_to(fg_path)
+        # also show node-sequence as a thinner dashed overlay for reference
+        if coords:
+            folium.PolyLine(coords, color="orange", weight=3, opacity=0.8, dash_array="6,6").add_to(fg_path)
+    else:
+        if coords:
+            folium.PolyLine(coords, color="red", weight=4, opacity=0.9).add_to(fg_path)
+            # mark start and end
+            folium.Marker(
+                location=coords[0],
+                popup="Start",
+                icon=folium.Icon(color="green", icon="play", prefix="fa"),
+            ).add_to(fg_path)
+            folium.Marker(
+                location=coords[-1],
+                popup="Destination",
+                icon=folium.Icon(color="darkred", icon="flag", prefix="fa"),
+            ).add_to(fg_path)
 
     # Add charging stops if provided
     if charging_stops:

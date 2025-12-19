@@ -356,8 +356,15 @@ def plan_route(
         add_virtual_node(G_filtered, start_node, lat, lon,
                          k_neighbors=8, max_dist_km=cfg["max_search_dist"])
         stations_mod = _append_virtual_station_row(stations_mod, start_node, "Start (user)", lat, lon)
+        start_coord = (float(lat), float(lon))
     else:
         start_node = start_sel
+        # set coordinate for OSRM usage if possible
+        try:
+            r = stations.set_index("id").loc[start_node]
+            start_coord = (float(r["lat"]), float(r["lon"]))
+        except Exception:
+            start_coord = None
 
 
     # end
@@ -367,8 +374,14 @@ def plan_route(
         add_virtual_node(G_filtered, end_node, lat, lon,
                          k_neighbors=8, max_dist_km=cfg["max_search_dist"])
         stations_mod = _append_virtual_station_row(stations_mod, end_node, "End (user)", lat, lon)
+        end_coord = (float(lat), float(lon))
     else:
         end_node = end_sel
+        try:
+            r = stations.set_index("id").loc[end_node]
+            end_coord = (float(r["lat"]), float(r["lon"]))
+        except Exception:
+            end_coord = None
 
     print("Neighbors of START:", list(G_filtered.neighbors(start_node)))
     print("Neighbors of END:", list(G_filtered.neighbors(end_node)))
@@ -399,6 +412,8 @@ def plan_route(
                     osrm_url=cfg.get("osrm_url"),
                 )
                 if sim and sim.get("feasible"):
+                    # attach base OSRM polyline so visualization can draw road geometry
+                    sim["base_polyline"] = poly
                     snapped_nodes = _snap_polyline_to_stations(G_filtered, stations_mod, poly, snap_radius_km=cfg["snap_radius_km"])
                     if start_node not in snapped_nodes:
                         snapped_nodes = [start_node] + snapped_nodes
@@ -465,8 +480,15 @@ def plan_route(
     buf.write(f"Tổng thời gian (phút): {best.get('total_time_min')} (drive {best.get('total_driving_time_min')} + charge {best.get('total_charging_time_min')})\n")
     buf.write(f"Các lần sạc: {best.get('charges')}\n")
 
-    # Create map HTML
-    m = plot_path(stations_mod, best["route"], charging_stops=best.get("charges"), detour_polylines=best.get("detour_polylines", []), output_file=None)
+   # Create map HTML
+    m = plot_path(
+        stations_mod,
+        best["route"],
+        charging_stops=best.get("charges"),
+        detour_polylines=best.get("detour_polylines", []),
+        base_polyline=best.get("base_polyline", None),
+        output_file=None,
+    )
     map_html = m.get_root().render()
 
     return {"output": buf.getvalue(), "map_html": map_html, "result": best}
@@ -573,6 +595,7 @@ def main():
     parser.add_argument("--snap-radius-km", type=float, default=5.0, help="Radius to snap polyline points to stations (km)")
     parser.add_argument("--max-expansions", type=int, default=50000, help="Max search node expansions to avoid long runs")
     parser.add_argument("--extra-kml", nargs="+", help="Additional KML file(s) (e.g. Google My Maps export) to merge into station list")
+    parser.add_argument("--ui", action="store_true", help="Launch native GUI (coord_ui.py)")
     args = parser.parse_args()
 
     cfg = {
@@ -595,10 +618,21 @@ def main():
         "use_geocode": args.use_geocode,
     }
 
+    # If requested, launch native UI. Import inside function to avoid circular import at module load.
+    if args.ui:
+        try:
+            from coord_ui import CoordPlannerUI
+        except Exception as ex:
+            print("Cannot launch GUI (coord_ui). Error:", ex)
+            return
+        ui = CoordPlannerUI()
+        ui.run()
+        return
+ 
     # Resolve start/end: use CLI if provided, otherwise interactive if terminal attached
     if args.start and args.end:
-        start_input = args.start
-        end_input = args.end
+         start_input = args.start
+         end_input = args.end
     else:
         # if running interactively, prompt user
         if sys.stdin.isatty():
