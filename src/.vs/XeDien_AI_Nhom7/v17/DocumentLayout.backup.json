@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\",
+  "WorkspaceRootPath": "D:\\Xe-i-n\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\coord_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:coord_ui.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\XeDien_AI_Nhom7.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\XeDien_AI_Nhom7.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:XeDien_AI_Nhom7.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_server.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\coord_server.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:coord_server.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\simulator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:Requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\simulator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:simulator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:data_load.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:routing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\visualization.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\visualization.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:visualization.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\graph.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\graph.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:graph.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\osrm_client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\osrm_client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:osrm_client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\coord_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:coord_selector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\energy_model.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|D:\\Xe-i-n\\src\\energy_model.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7694396C-2084-4DF2-97D5-076C7D0F1B46}|XeDien_AI_Nhom7.pyproj|solutionrelative:energy_model.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -58,40 +58,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "coord_ui.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_ui.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\coord_ui.py",
               "RelativeDocumentMoniker": "coord_ui.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_ui.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\coord_ui.py",
               "RelativeToolTip": "coord_ui.py",
-              "ViewState": "AgIAABIBAAAAAAAAAAAuwB4BAABgAAAAAAAAAA==",
+              "ViewState": "AgIAALMBAAAAAAAAAAD4v8cBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-12-18T18:35:42.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "coord_server.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_server.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\coord_server.py",
               "RelativeDocumentMoniker": "coord_server.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_server.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\coord_server.py",
               "RelativeToolTip": "coord_server.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEBAAAAAAAAAAAkwBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-12-01T09:25:06.501Z"
+              "WhenOpened": "2025-12-01T09:25:06.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "simulator.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\simulator.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\simulator.py",
               "RelativeDocumentMoniker": "simulator.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\simulator.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\simulator.py",
               "RelativeToolTip": "simulator.py",
               "ViewState": "AgIAAMEBAAAAAAAAAAApwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -101,11 +106,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "XeDien_AI_Nhom7.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\XeDien_AI_Nhom7.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\XeDien_AI_Nhom7.py",
               "RelativeDocumentMoniker": "XeDien_AI_Nhom7.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\XeDien_AI_Nhom7.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\XeDien_AI_Nhom7.py",
               "RelativeToolTip": "XeDien_AI_Nhom7.py",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAAAHgCAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAANsBAAAAAAAAAAD4v8kAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-11-30T08:18:59.424Z",
               "EditorCaption": ""
@@ -114,9 +119,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "visualization.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\visualization.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\visualization.py",
               "RelativeDocumentMoniker": "visualization.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\visualization.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\visualization.py",
               "RelativeToolTip": "visualization.py",
               "ViewState": "AgIAAIwAAAAAAAAAAAAIwJcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -126,9 +131,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "routing_search.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\routing_search.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\routing_search.py",
               "RelativeDocumentMoniker": "routing_search.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\routing_search.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\routing_search.py",
               "RelativeToolTip": "routing_search.py",
               "ViewState": "AgIAAOQAAAAAAAAAAAAawOYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -138,9 +143,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "data_load.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\data_load.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\data_load.py",
               "RelativeDocumentMoniker": "data_load.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\data_load.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\data_load.py",
               "RelativeToolTip": "data_load.py",
               "ViewState": "AgIAAJUAAAAAAAAAAAAkwKIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -148,11 +153,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Requirements.txt",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\Requirements.txt",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\Requirements.txt",
               "RelativeDocumentMoniker": "Requirements.txt",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\Requirements.txt",
+              "ToolTip": "D:\\Xe-i-n\\src\\Requirements.txt",
               "RelativeToolTip": "Requirements.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -162,9 +167,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "graph.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\graph.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\graph.py",
               "RelativeDocumentMoniker": "graph.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\graph.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\graph.py",
               "RelativeToolTip": "graph.py",
               "ViewState": "AgIAAJsAAAAAAAAAAAAkwLcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -174,9 +179,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "osrm_client.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\osrm_client.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\osrm_client.py",
               "RelativeDocumentMoniker": "osrm_client.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\osrm_client.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\osrm_client.py",
               "RelativeToolTip": "osrm_client.py",
               "ViewState": "AgIAAE4AAAAAAAAAAAAkwF4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -186,9 +191,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "coord_selector.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_selector.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\coord_selector.py",
               "RelativeDocumentMoniker": "coord_selector.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\coord_selector.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\coord_selector.py",
               "RelativeToolTip": "coord_selector.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
@@ -198,9 +203,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "energy_model.py",
-              "DocumentMoniker": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\energy_model.py",
+              "DocumentMoniker": "D:\\Xe-i-n\\src\\energy_model.py",
               "RelativeDocumentMoniker": "energy_model.py",
-              "ToolTip": "D:\\\u0110H\\N\u0103m 3\\TTNT\\Xe-i-n\\src\\energy_model.py",
+              "ToolTip": "D:\\Xe-i-n\\src\\energy_model.py",
               "RelativeToolTip": "energy_model.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",

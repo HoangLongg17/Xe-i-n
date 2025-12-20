@@ -414,16 +414,33 @@ def plan_route(
                 if sim and sim.get("feasible"):
                     # attach base OSRM polyline so visualization can draw road geometry
                     sim["base_polyline"] = poly
+                    # Previously we snapped many intermediate stations and used that full snapped list
+                    # for plotting. Change: avoid plotting the full station-to-station mesh.
+                    # Instead, show the driving base_polyline and only plot chargers as stops.
                     snapped_nodes = _snap_polyline_to_stations(G_filtered, stations_mod, poly, snap_radius_km=cfg["snap_radius_km"])
+                    # Ensure start/end present when snapped list didn't include them
                     if start_node not in snapped_nodes:
                         snapped_nodes = [start_node] + snapped_nodes
                     if end_node not in snapped_nodes:
                         snapped_nodes = snapped_nodes + [end_node]
+                    # Deduplicate snapped list (kept for internal reference)
                     dedup: List[str] = []
                     for n in snapped_nodes:
                         if not dedup or dedup[-1] != n:
                             dedup.append(n)
-                    sim["route"] = dedup
+                    # Compose a condensed route that contains only start + charger stops + end.
+                    charger_ids = [c["station_id"] for c in sim.get("charges", []) if "station_id" in c]
+                    route_nodes: List[str] = []
+                    if start_node not in charger_ids:
+                        route_nodes.append(start_node)
+                    for cid in charger_ids:
+                        if not route_nodes or route_nodes[-1] != cid:
+                            route_nodes.append(cid)
+                    if end_node not in route_nodes:
+                        route_nodes.append(end_node)
+                    # attach condensed route (visualization will draw base_polyline as the main road
+                    # and detour_polylines for actual charger detours)
+                    sim["route"] = route_nodes
                     sim["detour_polylines"] = sim.get("detour_polylines", [])
                     candidate_sim_results.append(sim)
 
@@ -465,7 +482,17 @@ def plan_route(
         best_eval = next((r for r in eval_results if r.get("feasible")), None)
         if not best_eval:
             return {"output": "No feasible simulated route after evaluation.", "map_html": None, "result": None}
-        best_eval["route"] = path
+        # Replace detailed node-to-node path with a condensed route: start + charger stops + end.
+        charger_ids = [c["station_id"] for c in best_eval.get("charges", []) if "station_id" in c]
+        condensed: List[str] = []
+        if start_node not in charger_ids:
+            condensed.append(start_node)
+        for cid in charger_ids:
+            if not condensed or condensed[-1] != cid:
+                condensed.append(cid)
+        if end_node not in condensed:
+            condensed.append(end_node)
+        best_eval["route"] = condensed
         candidate_sim_results = [best_eval]
 
     # Pick best by time
